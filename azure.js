@@ -3,7 +3,7 @@ const cors = require('cors');
 
 app.use(cors());
 
-app.get('/azure',(req,res)=>{
+app.get('/azure',function (req,res){
     console.log('azure request');
     res.send('this is azure api');
 })
