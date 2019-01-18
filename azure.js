@@ -8,6 +8,6 @@ app.get('/azure',function (req,res){
     res.send('this is azure api');
 })
 
-app.listen(4000,()=>{
+app.listen(4000,function (){
     console.log('azure app running locally');
 })
